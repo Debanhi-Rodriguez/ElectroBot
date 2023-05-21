@@ -1,0 +1,231 @@
+version: "3.1"
+
+intents:
+  - Saludo
+  - Despedida
+  - Resistencias
+  - Concepto de resistencia
+  - Colorimetria
+  - Cálculo de las resistencias
+  - Capacitores
+  - Concepto de capacitores
+  - Tipos de capacitores
+  - Cálculo de los capacitores
+  - Inductores
+  - Concepto de inductores
+  - Tipos de inductores
+  - Cálculo de los inductores
+  - Transistores
+  - Concepto de los transistores
+  - Tipos de transistores
+  - Amplificadores
+  - Potenciometros
+  - Diodos
+  - Concepto de los diodos
+  - Tipos de diodos
+  - Motores
+  - Concepto de los motores
+  - Motores de AC
+  - Motores de DC
+  - Relevadores
+  - Arduino
+  - Transformadores
+  - Circuitos integrados
+  - Ley de OHM
+  - Ley de OHM_CONCEPTO
+  - LEY de OHM_C
+  - LEY de OHM_V
+  - Leyes de Kirchoff
+  - Primera ley de KIRCHOFF
+  - Segunda ley de KIRCHOFF
+  - Que_soy
+  - Afirmar
+  - Negacion
+
+responses:
+  utter_Saludo:
+  - text: "¡Hola! soy Electrobot, ¿Cómo puedo ayudarte? :D\nTengo estos temas en mi sistema. Por favor responde con el número y el tema que deseas elegir:
+  \n1. Resistencias\n2. Capacitores\n3. Inductores\n4. Transistores\n5. Amplificadores\n6. Potenciometros\n7. Diodos\n8. Motores\n9. Relevadores
+  \n10. Arduino\n11. Transformadores\n12. Circuitos integrados\n13. Ley de Ohm\n14. Leyes de kirchoff"
+
+  utter_Resistencias:
+  - text: "¿Qué quieres saber acerca de las reistencias? Elige una opcion:\n\n- ¿Qué son las resistencias?\n- Colorimetría de las resistencias\n- Cálculo de resistencias"
+
+  utter_Concepto_R:
+  - text: "La resistencia es la oposición a la circulación de corriente en cualquier circuito. La resistencia se mide en\n
+Ohm y el símbolo de esta unidad es Ω\nhttps://www.qbprofe.com/wp-content/uploads/2021/02/w1resistencia-electrica-2.jpg"
+
+  utter_Colorimetria:
+  - text: "Aquí tienes una imagen donde puedes consultar la colorimetría de las resistencias: https://electrojoan.com/wp-content/uploads/2016/12/codigo-de-colores-resistencias.jpg"
+
+  utter_Calculo_R:
+  - text: "Aquí tienes una pagina para encontrar el valor de la suma de tus resistencias:\n
+https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-parallel-and-series-resistor"
+
+  utter_Capacitores:
+  - text: "¿Qué quieres saber acerca de los capacitores? Elige una opcion:\n\n- ¿Qué es un capacitor?\n- Tipos de capacitores\n- Cálculo de capacitores"
+
+  utter_Concepto_C:
+  - text: "También llamado condensador eléctrico es un dispositivo que se utiliza para almacenar energía (carga eléctrica)\n
+en un campo eléctrico interno. Es un componente electrónico pasivo y su uso es frecuente tanto en circuitos electrónicos,\n
+como en los analógicos y digitales."
+
+  utter_Tipos_C:
+  - text: "Aquí tienes una imagen donde puedes ver los tipos de capacitores: https://circuitoslistos.com/wp-content/uploads/2020/03/Captura-de-pantalla-2020-02-11-a-las-7.00.10-p.-m..png"
+
+  utter_Calculo_C:
+  - text: "Aquí tienes una pagina para encontrar el valor de la suma de tus capacitores:\n
+https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-series-and-parallel-capacitor"
+
+  utter_Inductores:
+  - text: "¿Qué quieres saber acerca de los inductores? Elige una opcion:\n\n- ¿Qué es un inductor?\n- Colorimetria de inductores\n- Cálculo de inductores"
+
+  utter_Concepto_I:
+  - text: "También llamado bobina, es un componente eléctrico pasivo de dos terminales que se opone a los cambios bruscos\n
+de corriente y almacena energía en un campo magnético cuando la corriente eléctrica fluye a través de él."
+
+  utter_Tipos_I:
+  - text: "Aquí tienes una imagen donde puedes ver los tipos de inductores: https://i.ytimg.com/vi/LXwFKTRQzVY/maxresdefault.jpg"
+
+  utter_Calculo_I:
+  - text: "El cálculo para los inductores sigue el mismo procedimiento que el de las resistencias\n
+https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-parallel-and-series-resistor"
+
+  utter_Transistores:
+  - text: "¿Qué quieres saber acerca de los transistores? Elige una opcion:\n\n- ¿Qué es un transistor?\n- Tipos de transistores"
+
+  utter_Concepto_T:
+  - text: "Es un componente electrónico formado por materiales semiconductores. capaz de modificar una señal eléctrica\n
+de salida como respuesta a una de entrada, sirviendo como amplificador, conmutador, oscilador o rectificador de la misma."
+
+  utter_Tipos_T:
+  - text: "https://www.areatecnologia.com/electronica/imagenes/tipos-transistores.jpg"
+
+  utter_Amplificadores:
+  - text: "Los amplificadores operacionales son, dispositivos compactos activos y lineales de alta ganancia,\n
+diseñados para proporcionar la función de transferencia deseada. Un amplificador operacional (A.O.) está compuesto\n
+por un circuito electrónico que tiene dos entradas y una salida, como se describe más adelante. La salida es la\n
+diferencia de las dos entradas multiplicada por un factor (G) (ganancia): Vout = G·(V+ - V-).\n\n
+Imagen: https://unicrom.com/wp-content/uploads/741-internamente.gif"
+
+  utter_Potenciometros:
+  - text: "Es un resistor eléctrico con un valor de resistencia variable y generalmente ajustable manualmente.\n
+Los potenciómetros utilizan tres terminales y se suelen utilizar en circuitos de poca corriente, para circuitos\n
+de mayor corriente se utilizan los reóstatos. En muchos dispositivos eléctricos los potenciómetros son los que\n
+establecen el nivel de salida. Por ejemplo, en un altavoz.\n\n
+Imagen: https://i0.wp.com/www.ingmecafenix.com/wp-content/uploads/2017/04/Potenciometro.webp?resize=683%2C384&ssl=1"
+
+  utter_Diodos:
+  - text: "¿Qué quieres saber acerca de los diodos? Elige una opcion:\n\n- ¿Qué son los diodos?\n- Tipos de diodos"
+
+  utter_Concepto_D:
+  - text: "Un diodo es un dispositivo semiconductor que actúa esencialmente como un interruptor unidireccional para la corriente.\n
+Permite que la corriente fluya en una dirección, pero no permite a la corriente fluir en la dirección opuesta."
+
+  utter_Tipos_D:
+  - text: "Aquí tienes una imagen donde puedes ver los tipos de diodos: https://www.vistronica.com/img/ybc_blog/post/IMAGENES-BLOG_COPILADO-26.jpg"
+
+  utter_Motores:
+  - text: "¿Qué quieres saber acerca de los motores? Elige una opcion:\n\n- ¿Qué son los motores?\n- Motor de AC\n- Motor de DC"
+
+  utter_Concepto_M:
+  - text: "Los motores son mecanismos capaces de transformar un tipo de energía (eléctrica, de combustión, etc.) en energía mecánica.\n
+Esta transformación permite la realización de un trabajo que hace funcionar un sistema o maquinaria. Los motores suelen fabricarse\n
+con piezas de acero o aluminio fundido, ideales para soportar y contrarrestar el calor que generan en el proceso mecánico de\n
+transformación de energía.\n\n
+Imagen: https://fidiasrodriguez.com/wp/wp-content/uploads/2019/06/Motores-1024x370.png"
+
+  utter_M_AC:
+  - text: "Se le llama motor de corriente alterna a aquellos motores eléctricos que funcionan con alimentación eléctrica en corriente alterna.\n
+El principio de funcionamiento de estos motores se basa en el campo magnético giratorio que crea una corriente alterna trifásica (3 fases).\n\n
+image: https://th.bing.com/th/id/OIP.CrWxd7blRuTCr7a1Ypps3AHaGR?w=247&h=210&c=7&r=0&o=5&pid=1.7"
+
+  utter_M_DC:
+  - text: "Los motores de Corriente Directa o motor DC, es una máquina que convierte energía eléctrica en energía mecánica,\n
+provocando un movimiento rotatorio, gracias a la acción de un campo magnético.\n\n
+image: https://th.bing.com/th/id/R.b06083299ceec9785b909305db4462cb?rik=ftyj%2bLU8wJJw2Q&pid=ImgRaw&r=0"
+
+  utter_Relevadores:
+  - text: "Un relevador es un interruptor que puede ser controlador eléctricamente. Este dispositivo también puede entenderse\n
+como un controlador electro-mecánico. Su principal función es abrir y cerrar entradas y salidas por mediación de una bobina\n
+y un electroimán.\n
+El electroimán es la pieza principal que es la que nos permitirá abrir y cerrar las entradas y salidas, y después la bobina\n
+crea un campo magnético para establecer una conexión entre ambos.\n\n
+Imagen: https://www.datacar-manualrepair.com/wp-content/uploads/2020/03/rele-1.jpg"
+
+  utter_Arduino:
+  - text: "Es una plataforma de creación de electrónica de código abierto, la cual está basada en hardware y software libre,\n
+flexible y fácil de utilizar para los creadores y desarrolladores. Esta plataforma permite crear diferentes tipos de\n
+microordenadores de una sola placa a los que la comunidad de creadores puede darles diferentes tipos de uso.\n\n
+Imagen: https://i.blogs.es/ad563d/arduino/1366_2000.jpg"
+
+  utter_Transformadores:
+  - text: "Son elementos eléctricos cruciales para la distribución y el aprovechamiento doméstico de la energía eléctrica.\n
+Los transformadores aumentan o disminuyen la tensión de una corriente alterna, pero teóricamente no cambian su potencia.\n\n
+Imagen: https://i0.wp.com/www.ingmecafenix.com/wp-content/uploads/2018/02/Devanados-transformador.webp?resize=683%2C384&ssl=1"
+
+  utter_C_I:
+  - text: "Es una oblea semiconductora (de silicio) en la que se fabrican miles o millones de componentes eléctricos y electrónicos\n
+como: resistores, condensadores, transistores y diodos. Un CI puede tener la función como amplificador, oscilador, temporizador,\n
+contador, compuerta lógica, memoria del ordenador, microcontrolador o microprocesador.\n
+Un Circuito Integrado es el elemento fundamental de todos los dispositivos electrónicos modernos. Como su nombre indica, es un\n
+sistema integrado de múltiples componentes miniaturizados e interconectados.\n\n
+El ejemplo más común de un CI es un generador de pulsos LM555:\n
+Imagen: https://www.areatecnologia.com/electronica/imagenes/circuito-integrado-555.jpg"
+
+  utter_OHM:
+  - text: "¿Qué quieres saber acerca de las leyes de OHM? Elige una opcion:\n\n- ¿Qué es la ley de OHM?\n- ¿Cómo calcular corriente con la ley de OHM?\n- ¿Cómo calcular voltaje con la ley de OHM?"
+
+  utter_Concepto_OHM:
+  - text: "La ley de Ohm se usa para determinar la relación entre tensión, corriente y resistencia en un circuito eléctrico.\n
+En electrónica, la ley de ohm es fundamental para entender circuitos eléctricos.\n\n
+Imagen: https://elinsignia.com/wp-content/uploads/2019/06/imagen-insignia-fisica.png\n\n
+De igual forma aquí hay una pagina donde puedes practicar:\n
+https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-ohms"
+
+  utter_Corriente:
+  - text: "Para encontrar la corriente total del circuito equivalente, basta con usar la Ley de Ohm, donde establece\n
+la relación entre el voltaje y la resistencia: I=V/R. Donde V en voltios y R en Ohmios.\n\n
+Aquí tienes una imagen para que entiendas mejor la relación: https://tallertronica.files.wordpress.com/2015/03/personajesvri.png"
+
+  utter_Voltaje:
+  - text: "Para encontrar el voltaje de un circuito, es necesario conocer los valores de la corriente y la resistencia.\n
+En tal caso, la Ley de Ohm indica que V=I*R, donde I esta en amperios y R en ohms.\n\n
+Aquí tienes una imagen para que entiendas mejor la relación: https://tallertronica.files.wordpress.com/2015/03/personajesvri.png"
+
+  utter_Kirchoff:
+  - text: "¿Cuál ley de Kirchoff te gustaría conocer? Elige una opcion:\n\n- Primera ley de Kirchoff\n- Segunda ley de kirchoff"
+
+  utter_P_KIRCHOFF:
+  - text: "La ley de corriente de Kirchhoff o primera ley está basada en la ley de la conservación de la carga, lo cual implica que\n
+la suma algebraica de las cargas dentro de un sistema no puede cambiar.\n\n
+Esto es un pequeño resumen de lo que son las leyes de Kirchoff, si necesitas más información al respecto puedes realizar la consulta\n
+en la siguiente página, la cual brinda más ejemplos, actividades e imágenes:\n\n
+https://www.mecatronicalatam.com/es/tutoriales/teoria/leyes-de-kirchhoff/"
+
+  utter_S_KIRCHOFF:
+  - text: "La ley de voltaje de Kirchhoff o segunda ley está basada en el principio de conservación de la energía, lo cual implica que\n
+la suma algebraica de la energía producida dentro de un sistema siempre permanece constante.\n\n
+Esto es un pequeño resumen de lo que son las leyes de Kirchoff, si necesitas más información al respecto puedes realizar la consulta\n
+en la siguiente página, la cual brinda más ejemplos, actividades e imágenes:\n\n
+https://www.mecatronicalatam.com/es/tutoriales/teoria/leyes-de-kirchhoff/"
+
+  utter_Despedida:
+  - text: "Hasta pronto, espero haber sido de ayuda :)"
+  - text: "¡Nos vemos!, suerte en tus clases :)"
+  - text: "Aquí estaré por si vuelves a tener dudas, adiós :)"
+
+  utter_Pregunta:
+  - text: "\n\n¿Te gustaría saber acerca de otros temas?"
+
+  utter_Afirmacion:
+  - text: "¿De qué mas te gustaría conocer? Aquí tienes nuevamente los temas:\n1. Resistencias\n2. Capacitores\n3. Inductores\n4. Transistores\n5. Amplificadores\n6. Potenciometros\n7. Diodos\n8. Motores\n9. Relevadores
+\n10. Arduino\n11. Transformadores\n12. Circuitos integrados\n13. Ley de Ohm\n14. Leyes de kirchoff"
+
+  utter_iamabot:
+  - text: "Soy una inteligencia artificial capaz de mantener una conversación contigo para enseñarte sobre ELECTRÓNICA.
+Fui creado para ayudar a quellos estudiantes que tienen dudas en sus clases o aquellas personas que simplemente les interesa aprender. (°3°)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

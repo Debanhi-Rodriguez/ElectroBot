@@ -1,0 +1,230 @@
+version: "3.1"
+
+nlu:
+
+- intent: Saludo
+  examples: |
+    - Hello
+    - Hi
+    - Quiuboles
+    - Hola ¿qué tal?
+    - Buenos días
+    - Buenas tardes
+    - Necesito ayuda
+    - ¿Qué onda?
+    - oaaaaa
+
+- intent: Despedida
+  examples: |
+    - Nos vemos
+    - nos vemos
+    - Hasta pronto
+    - hasta pronto
+    - Adiós
+    - Gracias
+    - adiós
+    - gracias
+
+- intent: Resistencias
+  examples: |
+    - 1. Resistencias
+    - 1. RESISTENCIAS
+
+- intent: Concepto de resistencia
+  examples: |
+    - ¿Qué son las resistencias?
+    - ¿QUÉ SON LAS RESISTENCIAS?
+
+- intent: Colorimetria
+  examples: |
+    - Colorimetría de las resistencias
+    - COLORIMETRIA
+
+- intent: Cálculo de las resistencias
+  examples: |
+    - ¿Cómo se calcula una resistencia?
+    - Cálculo de una resistencia
+
+- intent: Capacitores
+  examples: |
+    - 2. Capacitores
+    - 2. CAPACITORES
+
+- intent: Concepto de capacitores
+  examples: |
+    - ¿Qué son los capacitores?
+    - ¿QUE ES UN CAPACITOR?
+
+- intent: Tipos de capacitores
+  examples: |
+    - ¿Cuáles son los tipos de capacitores?
+    - Tipos de capacitores
+
+- intent: Cálculo de los capacitores
+  examples: |
+    - ¿Cómo se calcula un capacitor?
+    - Cálculo de un capacitor
+
+- intent: Inductores
+  examples: |
+    - 3. Inductores
+    - 3. INDUCTORES
+
+- intent: Concepto de inductores
+  examples: |
+    - ¿Qué son los inductores?
+    - ¿QUE SON LOS INDUCTORES?
+
+- intent: Tipos de inductores
+  examples: |
+    - ¿Cuáles son los tipos de inductores?
+    - Tipos de inductores
+
+- intent: Cálculo de los inductores
+  examples: |
+    - ¿Cómo se calcula un inductor?
+    - Cálculo de un inductor
+
+- intent: Transistores
+  examples: |
+    - 4. Transistores
+    - 4. TRANSISTORES
+
+- intent: Concepto de los transistores
+  examples: |
+    - ¿Qué son los transistores?
+    - ¿QUE ES UN TRANSISTOR?
+
+- intent: Tipos de transistores
+  examples: |
+    - ¿Cuáles son los tipos de transistores?
+    - Tipos de transistores
+
+- intent: Amplificadores
+  examples: |
+    - 5. Amplificadores
+    - 5. AMPLIFICADORES
+
+- intent: Potenciometros
+  examples: |
+    - 6. Potenciometros
+    - 6. POTENCIOMETROS
+
+- intent: Diodos
+  examples: |
+    - 7. Diodos
+    - 7. DIODOS
+
+- intent: Concepto de los diodos
+  examples: |
+    - ¿Qué son los diodos?
+    - ¿QUE ES UN DIODO?
+
+- intent: Tipos de diodos
+  examples: |
+    - ¿Cuáles son los tipos de diodos?
+    - Tipos de diodos
+
+- intent: Motores
+  examples: |
+    - 8. Motores
+    - 8. MOTORES
+
+- intent: Concepto de los motores
+  examples: |
+    - ¿Qué son los motores?
+    - ¿QUE SON LOS MOTORES?
+
+- intent: Motores de AC
+  examples: |
+    - corriente alterna
+    - CORRIENTE ALTERNA
+    - AC
+
+- intent: Motores de DC
+  examples: |
+    - Corriente directa
+    - CORRIENTE DIRECTA
+    - DC
+
+- intent: Relevadores
+  examples: |
+    - 9. Relevadores
+    - 9. RELEVADORES
+
+- intent: Arduino
+  examples: |
+    - 10. Arduino
+    - 10. ARDUINO
+
+- intent: Transformadores
+  examples: |
+    - 11. Transformadores
+    - 11. TRANSFORMADORES
+
+- intent: Circuitos integrados
+  examples: |
+    - 12. Circuitos integrados
+    - 12. CIRCUITOS INTEGRADOS
+
+- intent: Ley de OHM
+  examples: |
+    - 13. Ley de OHM
+    - 13. LEY DE OHM
+
+- intent: Ley de OHM_CONCEPTO
+  examples: |
+    - ¿Qué es la ley de OHM?
+    - ¿QUE ES LA LEY DE OHM?
+
+- intent: LEY de OHM_C
+  examples: |
+    - Ley de OHM para la corriente
+    - Ley de corriente
+    - Como calcular la corriente
+    - Corriente
+
+- intent: LEY de OHM_V
+  examples: |
+    - Ley de OHM para el voltaje
+    - Ley de voltaje
+    - Como calcular el voltaje
+    - Voltaje
+
+- intent: Leyes de Kirchoff
+  examples: |
+    - 14. Leyes de Kirchoff
+    - 14. LEYES DE KIRCHOFF
+
+- intent: Primera ley de KIRCHOFF
+  examples: |
+    - ¿Cuál es la primera ley de Kirchoff?
+    - Primera ley de kirchoff
+
+- intent: Segunda ley de KIRCHOFF
+  examples: |
+    - ¿Cuál es la segunda ley de Kirchoff?
+    - Segunda ley de kirchoff
+
+- intent: Que_soy
+  examples: |
+    - ¿Eres un robot?
+    - ¿Eres un humano?
+    - ¿Qué eres?
+    - ¿Qué haces?
+    - ¿Cuál es tu proposito?
+
+- intent: Afirmar
+  examples: |
+    - Sí, quiero saber más
+    - Claro
+    - Por favor
+    - Por supuesto
+    - si
+
+- intent: Negacion
+  examples: |
+    - No, no quiero
+    - Tal vez en otro momento
+    - No, gracias
+    - no

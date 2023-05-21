@@ -1,0 +1,333 @@
+version: "3.1"
+
+stories:
+
+- story: Saludar
+  steps:
+  - intent: Saludo
+  - action: utter_Saludo
+
+- story: Decir adiós
+  steps:
+  - intent: Despedida
+  - action: utter_Despedida
+
+- story: RESISTENCIAS
+  steps:
+  - intent: Resistencias
+  - action: utter_Resistencias
+
+- story: CONCEPTO_R
+  steps:
+  - intent: Concepto de resistencia
+  - action: utter_Concepto_R
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: COLORIMETRIA
+  steps:
+  - intent: Colorimetria
+  - action: utter_Colorimetria
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: CALCULO_R
+  steps:
+  - intent: Cálculo de las resistencias
+  - action: utter_Calculo_R
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: CAPACITORES
+  steps:
+  - intent: Capacitores
+  - action: utter_Capacitores
+
+- story: CONCEPTO_C
+  steps:
+  - intent: Concepto de capacitores
+  - action: utter_Concepto_C
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+  
+- story: TIPOS DE CAPACITORES
+  steps:
+  - intent: Tipos de capacitores
+  - action: utter_Tipos_C
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: CALCULO_C
+  steps:
+  - intent: Cálculo de los capacitores
+  - action: utter_Calculo_C
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: INDUCTORES
+  steps:
+  - intent: Inductores
+  - action: utter_Inductores
+
+- story: CONCEPTO_I
+  steps:
+  - intent: Concepto de inductores
+  - action: utter_Concepto_I
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+  
+- story: TIPOS DE INDUCTORES
+  steps:
+  - intent: Tipos de inductores
+  - action: utter_Tipos_I
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: CALCULO_I
+  steps:
+  - intent: Cálculo de los inductores
+  - action: utter_Calculo_I
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: TRANSISTORES
+  steps:
+  - intent: Transistores
+  - action: utter_Transistores
+
+- story: CONCEPTO_T
+  steps:
+  - intent: Concepto de los transistores
+  - action: utter_Concepto_T
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: TIPOS_TRANSISTORES
+  steps:
+  - intent: Tipos de transistores
+  - action: utter_Tipos_T
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: AMPLIFICADORES
+  steps:
+  - intent: Amplificadores
+  - action: utter_Amplificadores
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: POTENCIOMETROS
+  steps:
+  - intent: Potenciometros
+  - action: utter_Potenciometros
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: DIODOS
+  steps:
+  - intent: Diodos
+  - action: utter_Diodos
+
+- story: CONCEPTO_D
+  steps:
+  - intent: Concepto de los diodos
+  - action: utter_Concepto_D
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: TIPOS_DIODOS
+  steps:
+  - intent: Tipos de diodos
+  - action: utter_Tipos_D
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: MOTORES
+  steps:
+  - intent: Motores
+  - action: utter_Motores
+
+- story: CONCEPTO_M
+  steps:
+  - intent: Concepto de los motores
+  - action: utter_Concepto_M
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: MOTORES_AC
+  steps:
+  - intent: Motores de AC
+  - action: utter_M_AC
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: MOTORES_DC
+  steps:
+  - intent: Motores de DC
+  - action: utter_M_DC
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: RELEVADORES
+  steps:
+  - intent: Relevadores
+  - action: utter_Relevadores
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: ARDUIONO
+  steps:
+  - intent: Arduino
+  - action: utter_Arduino
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: TRANSFORMADORES
+  steps:
+  - intent: Transformadores
+  - action: utter_Transformadores
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: CIRCUITOS_INTEGRADOS
+  steps:
+  - intent: Circuitos integrados
+  - action: utter_C_I
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: LEY DE OHM
+  steps:
+  - intent: Ley de OHM
+  - action: utter_OHM
+
+- story: Concepto_OHM
+  steps:
+  - intent: Ley de OHM_CONCEPTO
+  - action: utter_Concepto_OHM
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: LEY DE OHM_C
+  steps:
+  - intent: LEY de OHM_C
+  - action: utter_Corriente
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: LEY DE OHM_V
+  steps:
+  - intent: LEY de OHM_V
+  - action: utter_Voltaje
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: LEYES DE KIRCHOFF
+  steps:
+  - intent: Leyes de Kirchoff
+  - action: utter_Kirchoff
+
+- story: PRIMERA DE KIRCHOFF
+  steps:
+  - intent: Primera ley de KIRCHOFF
+  - action: utter_P_KIRCHOFF
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: SEGUNDA DE KIRCHOFF
+  steps:
+  - intent: Segunda ley de KIRCHOFF
+  - action: utter_S_KIRCHOFF
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
+
+- story: ACERCA DEL BOT
+  steps:
+  - intent: Que_soy
+  - action: utter_iamabot
+  - action: utter_Pregunta
+  - intent: Afirmar
+  - action: utter_Afirmacion
+  - intent: Negacion
+  - action: utter_Despedida
